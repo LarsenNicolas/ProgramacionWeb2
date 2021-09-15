@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    margin-top: 20px;
+}
+
+footer p {
+    padding: 15px 0;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-center{
+ justify-content: center;
+}
