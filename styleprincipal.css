@@ -164,7 +164,7 @@ header {
   
 }
 
-input {
+input, select {
     font-family: 'Tomorrow', sans-serif;
   font-size: 0.875em;
   width: 400px;
