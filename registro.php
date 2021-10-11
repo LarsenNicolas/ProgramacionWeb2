@@ -16,7 +16,7 @@ if(mysqli_num_rows($datos_iguales) > 0){
     exit();
 }
 
-$ejecutar = mysqli_query($conexion, $query);
+$ejecutar = mysqli_query($conexion, $query); // creo variable le doy el acceso, y la llave a las columnas para comparar
 
 if ($ejecutar){
     echo "<script>
